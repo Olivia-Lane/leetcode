@@ -1,7 +1,3 @@
-#include <cstdint>
-#include <string>
-using std::string;
-
 class Solution {
 public:
     bool isPalindrome(int x) {
