@@ -31,7 +31,7 @@ public:
                         if(i < pal.length())
                             continue;
                         else 
-                            break;
+                            return -1;
                     }
                  }
                 else
@@ -61,7 +61,7 @@ public:
                     if(i < pal.length())
                         continue;
                     else 
-                        break;
+                        return -1;
                 }
                 else
                     return false;
